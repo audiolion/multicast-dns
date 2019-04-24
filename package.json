@@ -1,5 +1,5 @@
 {
-  "name": "multicast-dns",
+  "name": "@ryanar/multicast-dns",
   "version": "7.2.0",
   "description": "Low level multicast-dns implementation in pure javascript",
   "main": "index.js",
@@ -8,6 +8,7 @@
   },
   "bin": "cli.js",
   "dependencies": {
+    "chrome-dgram": "^3.0.1",
     "dns-packet": "^4.0.0",
     "thunky": "^1.0.2"
   },
